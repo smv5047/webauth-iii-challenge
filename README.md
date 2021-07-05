@@ -27,6 +27,7 @@ Use **JSON Web Tokens** to keep users authenticated across requests.
 
 ### Design and build the following endpoints.
 
+
 | Method | Endpoint      | Description                                                                                                                                                                                                                                                            |
 | ------ | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | POST   | /api/register | Creates a `user` using the information sent inside the `body` of the request. **Hash the password** before saving the user to the database.                                                                                                                            |
